@@ -7,6 +7,7 @@ public class Test_DB_C {
         //stmts.createNewDB();
         stmts.useDB("ThisDatabase");
         //stmts.createTable("MyTable");
-        stmts.insertData("MyTable");
+        //stmts.insertData("MyTable");
+        stmts.selectFromTable("MyTable");
     }
 }
