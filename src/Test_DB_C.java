@@ -6,6 +6,7 @@ public class Test_DB_C {
         DB_Statements stmts = new DB_Statements();
         //stmts.createNewDB();
         stmts.useDB("ThisDatabase");
-        stmts.createTable("MyTable");
+        //stmts.createTable("MyTable");
+        stmts.insertData("MyTable");
     }
 }
