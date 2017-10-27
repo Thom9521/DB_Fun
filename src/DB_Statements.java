@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class DB_Statements {
 
-    //    Declare a Statement
+    //    Declare a statement
     private static Statement stmt = null;
 
     //    Declare a connection
