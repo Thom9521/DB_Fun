@@ -8,7 +8,7 @@ public class DB_Connector {
     //  JDBC driver
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     //  The url = jdbc:dbms//host name:port#/db name
-    private static String url = "jdbc:mysql://localhost:3306/thom9521";
+    private static String url = "jdbc:mysql://localhost:3306/";
     //  User name
     private static String user = "root";
     // Password
