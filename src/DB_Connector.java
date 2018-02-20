@@ -12,7 +12,7 @@ public class DB_Connector {
     //  User name
     private static String user = "root";
     // Password
-    private static String password = "xmeto123";
+    private static String pass = "xmeto1234";
 
     public static Connection connect() {
         System.out.println("\n--Connecting to MySQL JDBC--");
@@ -30,7 +30,7 @@ public class DB_Connector {
 
         try {
             //  Connect to MySQL DB = URL, userName, password
-            con = DriverManager.getConnection(url, user, password);
+            con = DriverManager.getConnection(url, user, pass);
         }
         // Catch exceptions on connection error
         catch (SQLException ex) {
